@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>naginata's tools</title>
+<meta name="description" content="無料で使える小さなWebツール集。割り勘計算、反応速度テストなど。">
+<style>
+  :root {
+    --bg: #0f1220;
+    --card: #171b2e;
+    --text: #f2f3f7;
+    --sub: #9aa0b4;
+    --accent: #ffd93d;
+    --border: #2a2f47;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", "Segoe UI", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px 16px;
+  }
+  .wrap { max-width: 560px; margin: 0 auto; }
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 8px 0 4px;
+  }
+  .lead {
+    text-align: center;
+    color: var(--sub);
+    font-size: 13.5px;
+    margin-bottom: 28px;
+    line-height: 1.6;
+  }
+  .tool-card {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .tool-card .icon { font-size: 26px; margin-bottom: 6px; }
+  .tool-card .name { font-size: 16px; font-weight: bold; margin-bottom: 4px; }
+  .tool-card .desc { font-size: 13px; color: var(--sub); line-height: 1.6; }
+  footer {
+    text-align: center;
+    font-size: 11.5px;
+    color: var(--sub);
+    margin-top: 24px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🧰 naginata's tools</h1>
+  <p class="lead">サーバー代・利用登録不要で使える、無料の小さなWebツール集です。</p>
+
+  <a class="tool-card" href="https://naginata-work.github.io/warikan-tool/">
+    <div class="icon">🍻</div>
+    <div class="name">気くばり割り勘計算機</div>
+    <div class="desc">「上司は多め・新人は少なめ」も一発計算。飲み会・イベントの幹事さん向け。</div>
+  </a>
+
+  <a class="tool-card" href="https://naginata-work.github.io/reaction-speed-tool/">
+    <div class="icon">⚡</div>
+    <div class="name">Reaction Speed Test / 反応速度テスト</div>
+    <div class="desc">画面が緑になったらタップ。統計上の上位◯%を判定、結果はSNSシェア向け。</div>
+  </a>
+
+  <footer>© naginata-work</footer>
+</div>
+</body>
+</html>
