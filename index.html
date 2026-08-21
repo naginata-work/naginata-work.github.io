@@ -50,6 +50,19 @@
   .tool-card .icon { font-size: 26px; margin-bottom: 6px; }
   .tool-card .name { font-size: 16px; font-weight: bold; margin-bottom: 4px; }
   .tool-card .desc { font-size: 13px; color: var(--sub); line-height: 1.6; }
+  .about {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px;
+    margin: 24px 0;
+    font-size: 13.5px;
+    line-height: 1.9;
+    color: var(--text);
+  }
+  .about h2 { font-size: 15px; margin: 0 0 8px; }
+  .about p { margin: 0 0 10px; }
+  .about p:last-child { margin-bottom: 0; }
   footer {
     text-align: center;
     font-size: 11.5px;
@@ -87,7 +100,14 @@
     <div class="desc">海外レシピの「1カップ」を材料ごとにグラムへ即変換。</div>
   </a>
 
-  <footer>© naginata-work</footer>
+  <div class="about">
+    <h2>このサイトについて</h2>
+    <p>naginata's toolsは、個人開発者が作っている「ちょっとした日常の面倒ごと」を解決する無料Webツール集です。飲み会の割り勘計算、公平なくじ引き、海外レシピの単位換算など、それぞれ1つのことに特化した小さなツールを、会員登録やアプリのインストールなしで、そのままブラウザから使えるようにしています。</p>
+    <p>すべてのツールはサーバーを使わずブラウザ内だけで計算が完結するため、入力した内容が外部に送信されることはありません。広告表示や動作の改善のためのアクセス解析目的で、Google 等の第三者配信事業者がCookieを使用する場合があります。</p>
+    <p>今後も、日常のちょっとした「面倒だな」を解消するツールを少しずつ追加していく予定です。ご意見・ご要望があれば、各ツール内のリンクからお気軽にどうぞ。</p>
+  </div>
+
+  <footer>© naginata-work ・ <a href="https://naginata-work.github.io/privacy.html" style="color:var(--sub);">プライバシーポリシー</a></footer>
 </div>
 </body>
 </html>
