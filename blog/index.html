@@ -1,37 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog | naginata's tools</title>
-<meta name="description" content="Articles and guides from naginata's tools.">
+<title>読みもの | naginata's tools</title>
+<meta name="description" content="割り勘・料理の単位換算・パスワード・日付計算など、naginata's toolsの各ツールに関係する読みもの記事の一覧です。">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4214020669195548"
      crossorigin="anonymous"></script>
 <style>
-  :root { --bg: #fbfaf7; --card: #ffffff; --text: #2a2620; --sub: #766e60; --accent: #b5652f; --border: #e8e1d3; }
+  :root { --bg: #fbfaf7; --card: #ffffff; --text: #2a2620; --sub: #766e60; --accent: #b5652f; --border: #e8e1d3; --soft: #f4ede1; }
   * { box-sizing: border-box; }
-  body {
-    margin: 0; font-family: Arial, sans-serif; background: var(--bg); color: var(--text); padding: 24px 16px;
-  }
-  .wrap { max-width: 640px; margin: 0 auto; }
-  .back { display: inline-block; margin-bottom: 16px; font-size: 13px; color: var(--sub); text-decoration: none; }
-  h1 { font-size: 24px; margin: 4px 0 20px; }
-  .post-card {
-    display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    padding: 16px; margin-bottom: 12px; text-decoration: none; color: var(--text);
-  }
+  body { margin: 0; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Segoe UI", Arial, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px 16px 60px; line-height: 1.85; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .back { display: inline-block; margin-bottom: 18px; font-size: 13px; color: var(--sub); text-decoration: none; }
+  h1 { font-size: 26px; line-height: 1.45; margin: 0 0 6px; }
+  .meta { font-size: 12.5px; color: var(--sub); margin-bottom: 26px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
+  h3 { font-size: 17px; margin: 24px 0 8px; }
+  p, li { font-size: 16px; }
+  p { margin: 0 0 16px; }
+  ul, ol { padding-left: 1.4em; margin: 0 0 16px; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 15px; background: var(--card); }
+  th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; }
+  th { background: var(--soft); }
+  .box { background: var(--soft); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin: 0 0 18px; }
+  .box p:last-child, .box ul:last-child { margin-bottom: 0; }
+  .tool-link { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; margin: 10px 0; text-decoration: none; color: var(--text); }
+  .tool-link b { color: var(--accent); }
+  .related { margin-top: 40px; }
+  .post-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px; margin-bottom: 12px; text-decoration: none; color: var(--text); }
   .post-card .title { font-size: 16px; font-weight: bold; margin-bottom: 4px; }
-  .post-card .desc { font-size: 13px; color: var(--sub); line-height: 1.6; }
+  .post-card .desc { font-size: 13.5px; color: var(--sub); line-height: 1.6; }
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12.5px; color: var(--sub); text-align: center; }
+  footer a { color: var(--sub); }
+  @media (min-width: 900px) { h1 { font-size: 30px; } p, li { font-size: 17px; } }
 </style>
 </head>
 <body>
 <div class="wrap">
   <a class="back" href="https://naginata-work.github.io/">← naginata's tools</a>
-  <h1>Blog</h1>
+  <h1>読みもの</h1>
+  <p>各ツールに関係する、日常の「ちょっと知りたい」をまとめた記事です。</p>
+  <a class="post-card" href="https://naginata-work.github.io/blog/warikan-keisha.html"><div class="title">飲み会の割り勘で揉めないための「傾斜配分」のコツ</div><div class="desc">上司は多め・新人は少なめ、飲まない人は安めに。飲み会の割り勘を傾斜配分で計算する方法と、幹事が揉めないためのポイントを具体例つきで解説します。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/cup-to-gram.html"><div class="title">海外レシピの「1カップ」は何グラム?材料別の換算早見表</div><div class="desc">アメリカのレシピの1カップは約237ml。小麦粉・砂糖・バターなど材料ごとのグラム換算の目安と、日本・オーストラリアとの計量カップの違いを早見表でまとめました。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/strong-password.html"><div class="title">覚えやすくて破られにくいパスワードの作り方</div><div class="desc">パスワードは「複雑さ」より「長さ」が大切。ランダムな文字列と単語を組み合わせるパスフレーズの強さを比べながら、安全なパスワードの作り方と管理のコツを解説します。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/pomodoro-guide.html"><div class="title">ポモドーロ・テクニックの基本と、挫折しないためのコツ</div><div class="desc">25分集中して5分休む「ポモドーロ・テクニック」のやり方と効果、うまく続かないときの調整方法を、はじめての人向けにわかりやすく解説します。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/meeting-cost-guide.html"><div class="title">その会議、いくらかかっている?会議コストの計算方法と減らし方</div><div class="desc">会議のコストは「参加人数×時給×時間」で計算できます。年収から時給を出す方法、定例会議の年間コストの試算、会議のムダを減らすための具体的な工夫を紹介します。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/reaction-time-average.html"><div class="title">人間の反応速度の平均はどれくらい?測定結果がブレる理由</div><div class="desc">光を見てから反応するまでの時間は一般に0.2〜0.3秒ほど。反応速度テストの結果が毎回変わる理由や、スマホとパソコンで差が出る仕組みをわかりやすく解説します。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/tip-guide.html"><div class="title">海外旅行のチップはいくら?国別の目安と、計算を楽にするコツ</div><div class="desc">アメリカのレストランでは15〜20%が一般的。国ごとのチップの目安、税金との関係、暗算で素早く計算する方法、割り勘するときの注意点をまとめました。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/date-counting.html"><div class="title">「◯日間」「◯日後」の数え方:初日を含める?含めない?</div><div class="desc">10月1日から10月3日までは「2日」?「3日間」?日数の数え方で混乱しやすい、初日を含めるかどうかの違いや、法律上の期間の数え方、うるう年の注意点をまとめました。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/percent-mistakes.html"><div class="title">間違えやすいパーセント計算:割引の重ね掛けと「%」「ポイント」の違い</div><div class="desc">20%引きのさらに10%引きは30%引きではない?割引の重ね掛け、値上げ後の値下げ、「%」と「ポイント」の違い、消費税の逆算など、つまずきやすいパーセント計算をまとめました。</div></a>
+  <a class="post-card" href="https://naginata-work.github.io/blog/fair-random.html"><div class="title">くじ引き・チーム分けを本当に「公平」にする方法</div><div class="desc">くじを引く順番で当たりやすさは変わる?あみだくじは公平?くじ引きやチーム分けで不公平が生まれる原因と、誰もが納得できる決め方をわかりやすく解説します。</div></a>
+  <h2>English</h2>
   <a class="post-card" href="https://naginata-work.github.io/blog/wave-alternatives-2026.html">
     <div class="title">Best Wave Accounting Alternatives for Freelancers in 2026</div>
     <div class="desc">Wave's bank feed went behind a paywall in 2025. Here's an honest comparison of Invoice Ninja, FreshBooks, and Zoho Invoice.</div>
   </a>
+  <footer>
+    © naginata-work ・ <a href="https://naginata-work.github.io/">ツール一覧</a> ・ <a href="https://naginata-work.github.io/blog/">読みもの</a> ・ <a href="https://naginata-work.github.io/about.html">運営者情報</a> ・ <a href="https://naginata-work.github.io/contact.html">お問い合わせ</a> ・ <a href="https://naginata-work.github.io/privacy.html">プライバシーポリシー</a>
+  </footer>
 </div>
 </body>
 </html>

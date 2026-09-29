@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>間違えやすいパーセント計算:割引の重ね掛けと「%」「ポイント」の違い | naginata's tools</title>
+<meta name="description" content="20%引きのさらに10%引きは30%引きではない?割引の重ね掛け、値上げ後の値下げ、「%」と「ポイント」の違い、消費税の逆算など、つまずきやすいパーセント計算をまとめました。">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4214020669195548"
+     crossorigin="anonymous"></script>
+<style>
+  :root { --bg: #fbfaf7; --card: #ffffff; --text: #2a2620; --sub: #766e60; --accent: #b5652f; --border: #e8e1d3; --soft: #f4ede1; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Segoe UI", Arial, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px 16px 60px; line-height: 1.85; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .back { display: inline-block; margin-bottom: 18px; font-size: 13px; color: var(--sub); text-decoration: none; }
+  h1 { font-size: 26px; line-height: 1.45; margin: 0 0 6px; }
+  .meta { font-size: 12.5px; color: var(--sub); margin-bottom: 26px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
+  h3 { font-size: 17px; margin: 24px 0 8px; }
+  p, li { font-size: 16px; }
+  p { margin: 0 0 16px; }
+  ul, ol { padding-left: 1.4em; margin: 0 0 16px; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 15px; background: var(--card); }
+  th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; }
+  th { background: var(--soft); }
+  .box { background: var(--soft); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin: 0 0 18px; }
+  .box p:last-child, .box ul:last-child { margin-bottom: 0; }
+  .tool-link { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; margin: 10px 0; text-decoration: none; color: var(--text); }
+  .tool-link b { color: var(--accent); }
+  .related { margin-top: 40px; }
+  .post-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px; margin-bottom: 12px; text-decoration: none; color: var(--text); }
+  .post-card .title { font-size: 16px; font-weight: bold; margin-bottom: 4px; }
+  .post-card .desc { font-size: 13.5px; color: var(--sub); line-height: 1.6; }
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12.5px; color: var(--sub); text-align: center; }
+  footer a { color: var(--sub); }
+  @media (min-width: 900px) { h1 { font-size: 30px; } p, li { font-size: 17px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="https://naginata-work.github.io/blog/">← 読みもの一覧</a>
+  <h1>間違えやすいパーセント計算:割引の重ね掛けと「%」「ポイント」の違い</h1>
+  <div class="meta">2026年9月29日 ・ naginata's tools</div>
+
+<p>パーセントの計算は毎日のように目にするのに、ちょっとひねった形になると意外と間違えやすいものです。この記事では、買い物やニュースでよく出てくる「勘違いしやすいパーセント計算」を例題つきで整理します。</p>
+
+<h2>1. 「20%引きからさらに10%引き」は30%引きではない</h2>
+<p>セールでよく見かけるパターンです。10,000円の商品で考えてみましょう。</p>
+<ul>
+  <li>20%引き:10,000円 × 0.8 = 8,000円</li>
+  <li>さらに10%引き:8,000円 × 0.9 = <strong>7,200円</strong></li>
+</ul>
+<p>30%引きなら7,000円のはずなので、実際は<strong>28%引き</strong>です。2回目の割引は「割引後の金額」にかかるため、単純な足し算にはなりません。</p>
+
+<h2>2. 10%値上げして10%値下げすると、元に戻らない</h2>
+<p>1,000円の商品を10%値上げすると1,100円。そこから10%値下げすると、1,100円 × 0.9 = <strong>990円</strong>で、元の値段より10円安くなります。基準になる金額が変わるので、同じ「10%」でも金額が違うのがポイントです。</p>
+
+<h2>3. 「%」と「ポイント」は別物</h2>
+<p>ニュースで「支持率が5%から8%に上がった」という場合、上がったのは<strong>3ポイント</strong>です。これを「3%上がった」と言うと誤解のもとになります。</p>
+<ul>
+  <li>差で見ると:8 − 5 = <strong>3ポイント</strong>の上昇</li>
+  <li>比率で見ると:(8 − 5) ÷ 5 = <strong>60%</strong>の増加</li>
+</ul>
+<p>同じ変化でも、「3ポイント増」と「60%増」では受ける印象がまったく違います。数字を見るときは、どちらの意味で使われているかに注意しましょう。</p>
+
+<h2>4. 税込価格から税抜価格を出す</h2>
+<p>消費税10%の税込価格が1,100円のとき、税抜価格は1,100円 × 0.9 = 990円……ではありません。正しくは <strong>1,100円 ÷ 1.1 = 1,000円</strong>です。</p>
+<p>「税込価格に含まれる消費税額」は、税込価格 × 10 ÷ 110 で求められます。1,100円なら100円です。軽減税率8%の場合は、税込価格 ÷ 1.08 で税抜価格になります。</p>
+
+<h2>5. 「AはBの何%?」と「AはBより何%多い?」</h2>
+<ul>
+  <li>120は80の何%? → 120 ÷ 80 = <strong>150%</strong></li>
+  <li>120は80より何%多い? → (120 − 80) ÷ 80 = <strong>50%</strong></li>
+</ul>
+<p>「何%か」と「何%多いか」は100%ずれるので、グラフや資料を作るときに取り違えないようにしましょう。</p>
+
+<h2>迷ったら計算機で確認</h2>
+<p>当サイトの「パーセント計算機」では、「AはBの何%か」「Aの◯%はいくつか」「AからBへの増減率」をまとめて計算できます。割引や値上げの確認に使ってみてください。</p>
+<a class="tool-link" href="https://naginata-work.github.io/percent-calc/"><b>パーセント計算機</b><br>割合・増減率をまとめて計算できます。</a>
+<a class="tool-link" href="https://naginata-work.github.io/tip-calc/"><b>チップ計算機</b><br>パーセントでチップを計算して人数で割り勘。</a>
+
+  <div class="related">
+    <h2>ほかの記事</h2>
+    <a class="post-card" href="https://naginata-work.github.io/blog/warikan-keisha.html"><div class="title">飲み会の割り勘で揉めないための「傾斜配分」のコツ</div><div class="desc">上司は多め・新人は少なめ、飲まない人は安めに。飲み会の割り勘を傾斜配分で計算する方法と、幹事が揉めないためのポイントを具体例つきで解説します。</div></a>
+    <a class="post-card" href="https://naginata-work.github.io/blog/cup-to-gram.html"><div class="title">海外レシピの「1カップ」は何グラム?材料別の換算早見表</div><div class="desc">アメリカのレシピの1カップは約237ml。小麦粉・砂糖・バターなど材料ごとのグラム換算の目安と、日本・オーストラリアとの計量カップの違いを早見表でまとめました。</div></a>
+    <a class="post-card" href="https://naginata-work.github.io/blog/strong-password.html"><div class="title">覚えやすくて破られにくいパスワードの作り方</div><div class="desc">パスワードは「複雑さ」より「長さ」が大切。ランダムな文字列と単語を組み合わせるパスフレーズの強さを比べながら、安全なパスワードの作り方と管理のコツを解説します。</div></a>
+    <p><a href="https://naginata-work.github.io/blog/">記事一覧を見る →</a></p>
+  </div>
+  <footer>
+    © naginata-work ・ <a href="https://naginata-work.github.io/">ツール一覧</a> ・ <a href="https://naginata-work.github.io/blog/">読みもの</a> ・ <a href="https://naginata-work.github.io/about.html">運営者情報</a> ・ <a href="https://naginata-work.github.io/contact.html">お問い合わせ</a> ・ <a href="https://naginata-work.github.io/privacy.html">プライバシーポリシー</a>
+  </footer>
+</div>
+</body>
+</html>
